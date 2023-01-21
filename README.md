@@ -17,7 +17,7 @@ Hola everyone, this is team Enemies of Syntaxx which consists of 3 people of eac
 
 # Contributors :
 <br />Jay Jain: https://github.com/dishantzaveri
-<br />Rachana Yeldi : [https://github.com/Manan1](https://github.com/Rachana1104)7
+<br />Rachana Yeldi : https://github.com/Rachana1104
 <br />Yash Joshi : https://github.com/joshiyash05
 
 
