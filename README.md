@@ -16,7 +16,7 @@ Make me a visual part of it and I learn”        --~ Benjamin Franklin
 Hola everyone, this is team Enemies of Syntaxx which consists of 3 people of each and every stack. We have Rachana and Jay here for React.js Client-side Frontend, and Yash for AI/ML and django Backend .
 
 # Contributors :
-<br />Jay Jain: https://github.com/dishantzaveri
+<br />Jay Jain: https://github.com/jay4codes
 <br />Rachana Yeldi : https://github.com/Rachana1104
 <br />Yash Joshi : https://github.com/joshiyash05
 
