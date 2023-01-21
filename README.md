@@ -35,7 +35,7 @@ The feature available in VLearn .
 <br /> ->VISUALIZE ALGORITHMS.
 <br /> ->DRAG & DROP PROGRAMMING
 <br /> ->DISCUSSION FORUM
-<br /> ->AI based Code to english explainer
+<br /> ->AI based Code Explaination
 <br /> ->CONTESTS
 <br /> ->AI NAVIGATION
 <br /> ->PROFILE
