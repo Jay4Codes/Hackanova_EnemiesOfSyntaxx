@@ -1,11 +1,11 @@
 # Hackanova TCET :
 This is our project made for TCET's 30 Hours Hackathon Hackanova 2023.
 
-# We have Branches :
+# We have two branches :
 Website Code :https://github.com/Jay4Codes/Hackanova_EnemiesOfSyntaxx
 <br />Backend Code : https://github.com/Jay4Codes/Hackanova_EnemiesOfSyntaxx/tree/backend
 
-# V Learn
+# VLearn
 
 “Tell me and I forget.
 Teach me and I remember.
@@ -13,15 +13,15 @@ Make me a visual part of it and I learn”        --~ Benjamin Franklin
 
 # Introduction
 
-Hola Everyone, This is team The Enemies of Syntaxx which consists of 3 people of each and every stack. We have Rachana and Jay here for React,  and Yash for AI/ML and djanog Backend .
+Hola everyone, this is team Enemies of Syntaxx which consists of 3 people of each and every stack. We have Rachana and Jay here for React.js Client-side Frontend, and Yash for AI/ML and django Backend .
 
 # Contributors :
-<br />Jay Jain (React) : https://github.com/dishantzaveri
-<br />Rachana Yeldi (React) : [https://github.com/Manan1](https://github.com/Rachana1104)7
-<br />Yash Joshi (Backend) : https://github.com/joshiyash05
+<br />Jay Jain: https://github.com/dishantzaveri
+<br />Rachana Yeldi : [https://github.com/Manan1](https://github.com/Rachana1104)7
+<br />Yash Joshi : https://github.com/joshiyash05
 
 
-# Case Study: V-Learn - Visualize the learning : problem statement
+# Case Study: VLearn - Visualize learning
 
 Programming has become the biggest trend among Indian schoolchildren. There are various pathways that allow high school students to demonstrate their programming abilities by contributing to open-source projects. While these programs can provide a great introduction to computer programming, they also lack a number of important features that we think are necessary to help & create the next generation of effective independent computer programmers. 
  
@@ -29,9 +29,9 @@ It's crucial to visualize and understand the syntax in order to develop solid co
 
 # What is so good about us?
 
-Here at V-Learn, you'll be able to find various feature you are searching for. A designated place for all the software features That are availble on the internet . We provide proper description of along with the chatbot to how to use the feature. 
+Here at VLearn, you'll be able to find various feature you are searching for. A designated place for all the software features That are availble on the internet . We provide proper description of along with the chatbot to how to use the feature. 
  
-The feature available in V Learn .
+The feature available in VLearn .
 <br /> ->VISUALIZE ALGORITHMS.
 <br /> ->DRAG & DROP PROGRAMMING
 <br /> ->DISCUSSION FORUM
