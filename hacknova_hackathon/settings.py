@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'knox',
      'loginsign',
      'feedpage',
+     'visualapp',
     
 ]
 

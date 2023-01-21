@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/',include('loginsign.urls')),
      path('feed/',include('feedpage.urls')),
+      path('visualapp/',include('visualapp.urls'))
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
