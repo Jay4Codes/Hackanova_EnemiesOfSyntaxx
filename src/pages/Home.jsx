@@ -30,7 +30,7 @@ const Home = () => {
                     <div className="row">
                       <div className="col-lg-12">
                         <h2>VLearn: Visualizing Algorithms</h2>
-                        <p style={{fontSize:"1rem"}}>
+                        <p style={{ fontSize: "1rem" }}>
                           VLearn is a web application that allows users to learn
                           about algorithms by visualizing them. Users can choose
                           from a variety of algorithms and customize their
@@ -40,12 +40,26 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="col-lg-12">
-                        <div className="white-button first-button scroll-to-section" style={{borderStyle:"solid", borderColor:"white", borderRadius:"20px"}}>
+                        <div
+                          className="white-button first-button scroll-to-section"
+                          style={{
+                            borderStyle: "solid",
+                            borderColor: "white",
+                            borderRadius: "20px",
+                          }}
+                        >
                           <Link to="/build">
                             Build <i className="fa fa-arrow-right"></i>
                           </Link>
                         </div>
-                        <div className="white-button scroll-to-section" style={{borderStyle:"solid", borderColor:"white", borderRadius:"20px"}}>
+                        <div
+                          className="white-button scroll-to-section"
+                          style={{
+                            borderStyle: "solid",
+                            borderColor: "white",
+                            borderRadius: "20px",
+                          }}
+                        >
                           <Link to="/visualize" className="gradient-button">
                             Visualize <i className="fa fa-arrow-right"></i>
                           </Link>
@@ -81,7 +95,7 @@ const Home = () => {
                   Amazing <em>Services &amp; Features</em> for you
                 </h4>
                 <img src={heading} alt="heading" />
-                <p style={{fontSize:"1.0rem", color:"#72286F"}}>
+                <p style={{ fontSize: "1.0rem", color: "#72286F" }}>
                   Our proposed solution is a website that helps students to
                   learn programming in a fun and interactive way that would
                   revolutionize the way of learning to code. We propose the
@@ -92,9 +106,8 @@ const Home = () => {
           </div>
         </div>
         <div className="container">
-          <div className="row" >
+          <div className="row">
             <Card
-            
               title="Build Algorithms"
               desc="Learning programming can be made effective by dragging and dropping the code components and thus generating the code."
               link="/build"
@@ -124,7 +137,7 @@ const Home = () => {
               <div className="section-heading">
                 <h4>Problem Statement &amp; its Solution's Impact</h4>
                 <img src={about} alt="about" />
-                <p style={{fontSize:"1.05rem", color:"#72286F"}}>
+                <p style={{ fontSize: "1.05rem", color: "#72286F" }}>
                   Programming has become the biggest trend among Indian
                   schoolchildren. There are various pathways that allow high
                   school students to demonstrate their programming abilities by
@@ -138,8 +151,10 @@ const Home = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="box-item">
-                    <p style={{fontSize:"23px", color:"black"}}>Teaching Aid</p>
-                    <p style={{fontSize:"1.0rem", color:"#73BEF9"}}>
+                    <p style={{ fontSize: "23px", color: "black" }}>
+                      Teaching Aid
+                    </p>
+                    <p style={{ fontSize: "1.0rem", color: "#73BEF9" }}>
                       Can be used as a tool for teachers instead of them just
                       reading out stuff help students visualize algorithms
                     </p>
@@ -147,8 +162,10 @@ const Home = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="box-item">
-                    <p style={{fontSize:"23px", color:"black"}}>Promoting Community Content Creation</p>
-                    <p style={{fontSize:"1.0rem", color:"#73BEF9"}}>
+                    <p style={{ fontSize: "23px", color: "black" }}>
+                      Promoting Community Content Creation
+                    </p>
+                    <p style={{ fontSize: "1.0rem", color: "#73BEF9" }}>
                       Educational content creator can promote the courses
                       through Advertisements and Curated quiz
                     </p>
@@ -156,8 +173,10 @@ const Home = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="box-item">
-                    <p style={{fontSize:"23px", color:"black"}}>Enhanced Learning</p>
-                    <p style={{fontSize:"1.0rem", color:"#73BEF9"}}>
+                    <p style={{ fontSize: "23px", color: "black" }}>
+                      Enhanced Learning
+                    </p>
+                    <p style={{ fontSize: "1.0rem", color: "#73BEF9" }}>
                       Students can use for better learning. Aspirants can use
                       for interview and contests participation
                     </p>
@@ -165,8 +184,10 @@ const Home = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="box-item">
-                    <p style={{fontSize:"23px", color:"black"}}>Igniting Research</p>
-                    <p style={{fontSize:"1.0rem", color:"#73BEF9"}}>
+                    <p style={{ fontSize: "23px", color: "black" }}>
+                      Igniting Research
+                    </p>
+                    <p style={{ fontSize: "1.0rem", color: "#73BEF9" }}>
                       Researchers can use our platform to get a better
                       understanding of algorithm and compare it with existing
                       algorithms
@@ -215,7 +236,7 @@ const Home = () => {
                           <div className="thumb">
                             <div className="row">
                               <div className="col-lg-4 col-sm-4 col-12">
-                                <h4 style={{color:"black"}}>Frontend</h4>
+                                <h4 style={{ color: "black" }}>Frontend</h4>
                                 <span className="date">Client</span>
                               </div>
                               <div className="col-lg-4 col-sm-4 d-none d-sm-block">

@@ -4,32 +4,32 @@ import logo from "../../images/logo-text.png";
 
 const Header = () => {
   const [card, setCard] = useState([]);
-  let token = sessionStorage.getItem("token");
-  useEffect(() => {
-    (async () => {
-      let profile_info;
-      try {
-        let response = await fetch(
-          "https://hacknova2.pythonanywhere.com/login/profilecreate/",
-          {
-            method: "GET",
-            headers: {
-              Authorization: `Token ${token}`,
-              "Content-Type": "application/json",
-              Accept: "application/json",
-            },
-          }
-        );
-        profile_info = await response.json();
-        console.log(profile_info);
-      } catch (error) {
-        console.log("Error" + error);
-        profile_info = [];
-      }
-      setCard(profile_info);
-    })();
-  }, [token]);
-  console.log(card);
+  // let token = sessionStorage.getItem("token");
+  // useEffect(() => {
+  //   (async () => {
+  //     let profile_info;
+  //     try {
+  //       let response = await fetch(
+  //         "https://hacknova2.pythonanywhere.com/login/profilecreate/",
+  //         {
+  //           method: "GET",
+  //           headers: {
+  //             Authorization: `Token ${token}`,
+  //             "Content-Type": "application/json",
+  //             Accept: "application/json",
+  //           },
+  //         }
+  //       );
+  //       profile_info = await response.json();
+  //       console.log(profile_info);
+  //     } catch (error) {
+  //       console.log("Error" + error);
+  //       profile_info = [];
+  //     }
+  //     setCard(profile_info);
+  //   })();
+  // }, [token]);
+  // console.log(card);
 
   return (
     <header
@@ -59,9 +59,9 @@ const Header = () => {
                 <li className="scroll-to-section">
                   <Link to="/explain">Explain</Link>
                 </li>
-                <li className="scroll-to-section">
+                {/* <li className="scroll-to-section">
                   <Link to="/discuss">Discuss</Link>
-                </li>
+                </li> */}
                 <li className="scroll-to-section">
                   <Link to="/contests">Contests</Link>
                 </li>

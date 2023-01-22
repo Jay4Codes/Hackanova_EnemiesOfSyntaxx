@@ -41,7 +41,7 @@ const Header = () => {
                   <Link to="/analyze">Analyze</Link>
                 </li>
                 <li>
-                  <Link to="/" style={{textDecoration:"none"}}>
+                  <Link to="/" style={{ textDecoration: "none" }}>
                     <div className="gradient-button">
                       <a id="modal_trigger">
                         <i className="fa fa-sign-in-alt"></i> Sign In Now
