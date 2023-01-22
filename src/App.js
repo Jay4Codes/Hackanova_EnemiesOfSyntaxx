@@ -15,7 +15,7 @@ import NoMatch from "./pages/NoMatch";
 // import Profile from "./pages/Profile";
 import Build from "./pages/Build";
 // import Discussion from "./pages/Discussion";
-import Visualize from "./pages/Visualize";
+// import Visualize from "./pages/Visualize";
 
 import Explain from "./pages/Explain";
 
@@ -23,16 +23,16 @@ import Contests from "./pages/Contests";
 
 import alanBtn from "@alan-ai/alan-sdk-web";
 
-import Seive from "./components/Visualize/VizAlgorithms/primeComponents/seive";
-import Queen from "./components/Visualize/VizAlgorithms/queenComponents/queen";
-import BinarySearch from "./components/Visualize/VizAlgorithms/binarySearchComponent/binarySearch";
-import Pathfinder from "./components/Visualize/VizAlgorithms/pathfinderComponents/pathfinder";
-import Sort from "./components/Visualize/VizAlgorithms/sortComponents/sort";
-import ConvexHull from "./components/Visualize/VizAlgorithms/convexHullComponents/convexHull";
-import RecursiveSort from "./components/Visualize/VizAlgorithms/recursiveSortComponents/recursiveSort";
-import TuringMachine from "./components/Visualize/VizAlgorithms/Turing Machine/turingMachine";
-import Puzzle from "./components/Visualize/VizAlgorithms/15puzzleComponents/puzzle";
-import Graph from "./components/Visualize/VizAlgorithms/Graph/graph";
+// import Seive from "./components/Visualize/VizAlgorithms/primeComponents/seive";
+// import Queen from "./components/Visualize/VizAlgorithms/queenComponents/queen";
+// import BinarySearch from "./components/Visualize/VizAlgorithms/binarySearchComponent/binarySearch";
+// import Pathfinder from "./components/Visualize/VizAlgorithms/pathfinderComponents/pathfinder";
+// import Sort from "./components/Visualize/VizAlgorithms/sortComponents/sort";
+// import ConvexHull from "./components/Visualize/VizAlgorithms/convexHullComponents/convexHull";
+// import RecursiveSort from "./components/Visualize/VizAlgorithms/recursiveSortComponents/recursiveSort";
+// import TuringMachine from "./components/Visualize/VizAlgorithms/Turing Machine/turingMachine";
+// import Puzzle from "./components/Visualize/VizAlgorithms/15puzzleComponents/puzzle";
+// import Graph from "./components/Visualize/VizAlgorithms/Graph/graph";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import CommentGet from "./components/Discuss/CommentGet";
@@ -61,7 +61,7 @@ function App() {
           <Route path="*" element={<NoMatch />} />
 
           <Route path="/build" element={<Build />} />
-          <Route path="/visualize" element={<Visualize />} />
+          {/* <Route path="/visualize" element={<Visualize />} />
 
           <Route path="/visualize/prime" element={<Seive />} />
           <Route path="/visualize/nqueens" element={<Queen />} />
@@ -72,7 +72,7 @@ function App() {
           <Route path="/visualize/recursivesort" element={<RecursiveSort />} />
           <Route path="/visualize/turing" element={<TuringMachine />} />
           <Route path="/visualize/puzzle" element={<Puzzle />} />
-          <Route path="/visualize/graph" element={<Graph />} />
+          <Route path="/visualize/graph" element={<Graph />} /> */}
 
           {/* <Route path="/discuss" element={<Discussion />} /> */}
           {/* <Route
