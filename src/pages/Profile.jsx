@@ -16,32 +16,32 @@ import badge3 from "../images/badge3.png";
 const Profile = () => {
   const data = [
     {
-      name: "Quiz 1",
-      Score: 3,
+      name: "Day 1",
+      Hours: 3,
     },
     {
-      name: "Quiz 2",
-      Score: 3,
+      name: "Day 2",
+      Hours: 3,
     },
     {
-      name: "Quiz 3",
-      Score: 2,
+      name: "Day 3",
+      Hours: 2,
     },
     {
-      name: "Quiz 4",
-      Score: 1,
+      name: "Day 4",
+      Hours: 1,
     },
     {
-      name: "Quiz 5",
-      Score: 1,
+      name: "Day 5",
+      Hours: 1,
     },
     {
-      name: "Quiz 6",
-      Score: 1,
+      name: "Day 6",
+      Hours: 1,
     },
     {
-      name: "Quiz 7",
-      Score: 2,
+      name: "Day 7",
+      Hours: 2,
     },
   ];
   const barColors = ["#92A3FD", "#C58BF2"];
@@ -153,11 +153,11 @@ const Profile = () => {
                 </defs>
                 <CartesianGrid strokeDasharray="2 2" />
                 <XAxis dataKey="name" />
-                <YAxis dataKey="Score" />
+                <YAxis dataKey="Hours" />
                 <Tooltip />
                 <Legend />
                 <Bar
-                  dataKey="Score"
+                  dataKey="Hours"
                   radius={[20, 20, 20, 20]}
                 >
                   {data.map((index) => (
